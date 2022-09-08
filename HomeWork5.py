@@ -1,0 +1,8 @@
+print ('HomeWork5')
+print('Ведите координаты первой точки: ')
+x1=float(input('x: '))
+y1=float(input('y: '))
+print('Ведите координаты второй точки: ')
+x2=float(input('x: '))
+y2=float(input('y: '))
+print('Растояние между 1-ой и 2-ой точки: ',round(((x2 - x1)**2 + (y2 - y1)**2)**(1 / 2), 4))
